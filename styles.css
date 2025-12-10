@@ -1,0 +1,9 @@
+.class
+{
+
+}
+/*id selector, which has highrer precedence than class and...*/
+#para
+{
+    color: blue;
+}
