@@ -1,0 +1,28 @@
+/*element selector (e.g., p { })*/
+p {
+  color: black;
+  background-color: white;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: justify;
+}
+/*One class selector (e.g., .box { })*/
+.box {
+  border: solid 2px black;
+  padding: 5px;
+  margin: 8px;
+  color: black;
+  background-color: yellowgreen;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+}
+/*One ID selector (e.g., #title { }*/
+#title {
+  color: green;
+  background-color: yellowgreen;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
