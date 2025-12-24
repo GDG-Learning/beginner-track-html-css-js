@@ -1,0 +1,121 @@
+<!-- Beginner Task 3 – Simple Homepage (HTML + CSS) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="style_task_3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="logo" href="GDG_task_2.html" aria-label="Go to homepage"
+          >Ephratah</a
+        >
+
+        <ul class="menu">
+          <li><a href="GDG_task_2.html">Home</a></li>
+          <li><a href="GDG_task_1.html">About</a></li>
+          <li><a href="GDG_task_3.html">Projects</a></li>
+        </ul>
+
+        <a class="contact-btn" href="GDG_task_1.html#contact">Contact Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">My Projects</h1>
+        <p class="hero-subtitle">
+          GDG Beginner Track practice: semantic HTML, clean CSS, and simple
+          responsive layout.
+        </p>
+      </section>
+
+      <!-- Cards -->
+      <section id="projects" class="card-section" aria-labelledby="cards-title">
+        <h2 id="cards-title">Featured cards</h2>
+
+        <article class="card">
+          <h3 class="card-title">Card 1</h3>
+          <p class="card-text">
+            A simple content card. Use it to highlight a recent project or note.
+          </p>
+          <a class="card-link" href="GDG_task_1.html">View Task 1</a>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title">Card 2</h3>
+          <p class="card-text">
+            Another example card with consistent spacing and typography.
+          </p>
+          <a class="card-link" href="GDG_task_2.html">View Task 2</a>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title">Card 3</h3>
+          <p class="card-text">
+            Use this to link new challenges or portfolio items as you progress.
+          </p>
+          <a class="card-link" href="GDG_task_1.html#contact">Contact</a>
+        </article>
+      </section>
+
+      <!-- Gallery -->
+      <section class="gallery" aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Gallery</h2>
+
+        <figure class="image-box">
+          <img
+            src="https://source.unsplash.com/400x300/?code"
+            alt="Abstract coding image"
+          />
+          <figcaption>Image 1</figcaption>
+        </figure>
+
+        <figure class="image-box">
+          <img
+            src="https://source.unsplash.com/400x300/?design"
+            alt="Design themed image"
+          />
+          <figcaption>Image 2</figcaption>
+        </figure>
+
+        <figure class="image-box">
+          <img
+            src="https://source.unsplash.com/400x300/?technology"
+            alt="Technology themed image"
+          />
+          <figcaption>Image 3</figcaption>
+        </figure>
+
+        <figure class="image-box">
+          <img
+            src="https://source.unsplash.com/400x300/?learning"
+            alt="Learning themed image"
+          />
+          <figcaption>Image 4</figcaption>
+        </figure>
+      </section>
+
+      <!-- Simple alt contact -->
+      <p class="alt-contact">
+        Prefer chat? Visit
+        <a href="GDG_task_1.html#contact">my contact section</a>.
+      </p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>© 2025 Ephratah — All rights reserved</p>
+      <nav aria-label="Footer">
+        <a href="GDG_task_1.html">Task 1</a>
+        <a href="GDG_task_2.html">Task 2</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </footer>
+  </body>
+</html>
