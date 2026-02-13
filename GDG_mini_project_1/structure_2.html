@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" lang="en">
+<title>Sign Up</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+<body class="join">
+<img id="logo" src="logo.png" alt="Logo">
+<h1>Sign up</h1>
+<form action="/accountlist.php" method="POST">
+<fieldset>
+<legend>Join us!</legend>
+<ul>
+<li>
+<label for="name">Name:</label>
+<input type="text" name="fullname" id="names" placeholder="Enter your username">
+</li>
+<br>
+<li>
+<label for="email">Email:</label>
+<input type="text" name="email" id="email" placeholder="Enter your email address">
+</li>
+<br>
+<li>
+<label for="pswrd">Password:</label>
+<input type="password" name="pswrd" maxlength="12" minlength="5" id="form-pswrd" placeholder="Enter at least 5 characters">
+</li>
+</ul>
+<br>
+<a href="structure_1.html"><input class="button" type="button" value="Back"></a>
+<input class="button" type="reset" value="Start over">
+<a href="structure_4.html"><input class="button" type="submit" value="Submit"></a>
+
+</fieldset>
+</form>
+
+</body>
+</html>

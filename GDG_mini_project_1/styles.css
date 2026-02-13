@@ -1,0 +1,68 @@
+#logo{
+box-shadow: 15px 15px 5px grey;
+}
+
+body {
+  font-family:Serif,Arial Black;
+  font-weight: none;
+  background-color: aqua;
+  margin: 30px;
+}
+
+.join{
+background-color: antiquewhite;
+
+}
+
+.small{
+  font-family: Arial Black;
+  font-size: 10px;
+  font-stretch: ultra-condensed;
+  text-align: center;
+  line-spacing: 0px;
+  color: red;
+background-color: antiquewhite;
+  box-shadow: 0px 10px 10px grey;
+}
+
+header, h2{
+color: blue;
+}
+
+h1 {
+  font-family: Arial Black;
+  font-weight: bold;
+  text-align: center;
+text-shadow: 10px 5px 8px grey;
+color: blue;
+}
+
+form{
+background-color: aqua;
+border: 10px double black;
+box-shadow: 15px 15px 5px grey;
+}
+
+legend{
+  font-family: Arial Black;
+  font-stretch: ultra-condensed;
+  color: red;
+}
+
+.button {
+  font-family: Arial Black;
+  font-stretch: ultra-condensed;
+  color: blue;
+  background-color: antiquewhite;
+border: 2px  solid black;
+box-shadow: 3.5px 3.5px 5px grey;
+}
+
+footer ul li{
+font-size: 12px;
+text-align: center;
+text-decoration: none;
+color: black;
+list-style: none;
+background-color: antiquewhite;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" lang="en">
+<title>Decision tool</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+<body>
+<img id="logo" src="logo.png" alt="Logo">
+
+<section>
+<h1>Welcome <span class="amount"> ...!</span></h1>
+<h2>Your Budjet is:<span class="amount"> ...</span></h2>
+</section>
+
+<section>
+<form action="/budgetlist.php" method="POST">
+<legend>What would you like to buy?</legend>
+<fieldset>
+<ul>
+<li>
+<label for="items">Item 1:</label>
+<input type="text" name="item" id="names">
+</li>
+
+<br>
+
+<li>
+<label for="cost">Cost:</label>
+<input type="number" name="costs" id="cost">
+</li>
+</ul>
+
+<br>
+
+<input class="button" type="reset" value="Start over">
+<a href="structure-4.html"><input class="button" type="submit" value="Submit"></a>
+<a href="#"><input class="button" type="button" value="Add more items"></a>
+<a href="structure_5.html"><input class="button" type="button" value="Decide"></a>
+</fieldset>
+</form>
+</section>
+
+<footer>
+<ul>
+<li><a href="../GDG_task_1.html">About</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#help">Help</a></li>
+<li><a href="contact">contact</a></li>
+</ul>
+</footer>
+</body>
+</html>
