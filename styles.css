@@ -2,7 +2,7 @@
 {
 
 }
-/*id selector, which has highrer precedence than class and...*/
+/*id selector, which has higher precedence than class and...*/
 #para
 {
     color: blue;

@@ -34,17 +34,69 @@ Personal Budjet Decision tool
 <p>Give it a go. Let us carry the load.</p>
 </section>
 
+<button onclick="checkBudget()">Check Budget</button>
+
 <p class="asking">Is it your first time here?</p>
+<form action="/accountlist.php" method="POST">
+<fieldset>
 <legend>Join us!</legend>
-<a href="structure_2.html"><input class="button" type="button" value="Sign Up"></a>
+<ul>
+<li>
+<label for="name">Name:</label>
+<input type="text" name="fullname" id="names" placeholder="Enter your username">
+</li>
+<br>
+<li>
+<label for="email">Email:</label>
+<input type="text" name="email" id="email" placeholder="Enter your email address">
+</li>
+<br>
+<li>
+<label for="pswrd">Password:</label>
+<input type="password" name="pswrd" maxlength="12" minlength="5" id="form-pswrd" placeholder="Enter at least 5 characters">
+</li>
+</ul>
+<br>
+<a href="structure_1.html"><input class="button" type="button" value="Back"></a>
+<input class="button" type="reset" value="Start over">
+<a href="structure_4.html"><input class="button" type="submit" value="Submit"></a>
+
+</fieldset>
+</form>
+
 
 <p class="asking">Do you already have an account?</p>
-<legend>Comeback in!</legend>
-<a href="structure_2.html"><input class="button" type="button" value="Log in"></a>
+<form action="/accountlist.php" method="POST">
+<fieldset>
+<legend>Good to see you again!</legend>
+<ul>
+<li>
+<label for="name">Name:</label>
+<input type="text" name="fullname" id="names">
+</li>
+
+<br>
+
+<li>
+<label for="pswrd">Password:</label>
+<input type="password" name="pswrd" maxlength="12" minlength="5" id="form-pswrd">
+</li>
+</ul>
+
+<br>
+
+<a href="structure_1.html"><input class="button" type="button"value="Back"></a>
+<a href="structure-4.html"><input class="button" type="submit" value="submit"></a>
+</fieldset>
+</form>
+
+<br>
+<br>
+<br>
 
 <footer>
 <ul>
-<li><a href="../GDG_task_1.html">About</a></li>
+        <li><a href="../GDG_task_1.html">About</a></li>
 <li><a href="#faq">FAQ</a></li>
 <li><a href="#help">Help</a></li>
 <li><a href="#contact">Contact</a></li>
